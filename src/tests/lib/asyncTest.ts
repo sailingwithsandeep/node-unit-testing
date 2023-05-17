@@ -1,4 +1,4 @@
-import assert from 'assert';
+import { assert } from 'chai';
 
 function isValidUserIdAsync(userList: Array<string>, user: string, callback: Function) {
     setTimeout(function () {
